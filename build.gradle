@@ -5,6 +5,9 @@ plugins {
     id "io.freefair.lombok" version "8.6"
 }
 
+group = 'ru.regulator'
+version = '1.0.0'
+
 repositories {
     mavenCentral()
 }
@@ -21,7 +24,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes('Main-Class': 'ru.bkmz1941.Main')
+        attributes('Main-Class': 'ru.bkmz1994.Main')
     }
     archiveBaseName = "build"
 }
